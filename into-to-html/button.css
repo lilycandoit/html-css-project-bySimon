@@ -1,0 +1,75 @@
+button {
+    color: white;
+    font-size: 18px;
+    font-weight: 5px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.25s;
+    vertical-align: top;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
+
+/* short cut will be: ctrl + / */
+
+.subcribe-button {
+    background-color: rgb(187, 44, 44);
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.subcribe-button:hover {
+    opacity: 0.3;
+}
+
+.subcribe-button:active{
+    opacity: 0.5;
+}
+
+.join-button {
+    color: rgb(10, 104, 181);
+    background-color: white;
+    border-color: rgb(10, 104, 181);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 9px 19px;
+    
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.join-button:hover{
+    background-color: rgb(10, 104, 181);
+    color: white;
+    /*opacity: 0.4;*/
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+.Tweeter-button {
+    background-color: rgb(54, 127, 253);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: box-shadow 0.3s;
+    text-align: center;
+}
+
+.Tweeter-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+
+ 
+

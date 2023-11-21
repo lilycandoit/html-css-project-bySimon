@@ -1,0 +1,200 @@
+p {
+    color: gray;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: none;
+    text-align: left;
+    width: 300px;
+    line-height: 24px;
+    margin-top: 7px;
+}
+
+.video-stats {
+    margin-top: 2px;
+    margin-bottom: 20px;
+
+}
+
+.video-author {
+    margin-bottom: 20px;
+    
+}
+
+.video-text {
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 100px;
+
+}
+
+.apple-text {
+    margin-bottom:50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+.shop-now {
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+
+}
+
+/* text exercises */
+.tahoma {
+    font-family: Tahoma;
+}
+
+/* 5b */
+h2.title {
+    font-family: Arial;
+    margin-bottom: 0;
+}
+
+p.info {
+    color: red;
+    font-size: 20px;
+    font-style: italic
+
+}
+
+/* 5c */
+.course-title {
+    font-family: Verdana;
+    margin-bottom: 0;
+}
+
+.learners {
+    font-family: Verdana;
+    margin-top: 5px; 
+    margin-bottom: 15px;   
+}
+
+.course_details {
+    font-family: Verdana;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+.get_started {
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* 5d */
+.shopping, .describe {
+    text-align: center;
+    font-family: Arial;
+}
+
+.describe {
+    color: rgb(34, 32, 32);
+}
+
+div.link{
+    color: red;
+    text-align: center;
+
+}
+
+/* 5e */
+div.exercise_5e{
+    text-align: center;
+    margin: 10px;
+    font-family: Arial;
+}
+
+.new {
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.macbook {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.pros {
+    margin: 0;
+
+}
+
+.price {
+    color: rgb(15, 14, 14);
+    margin-top: 10px;
+}
+
+.buy-button {
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+
+/* 5f */
+.usd {
+    color: grey;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+.today_data {
+    color: rgb(6, 132, 6);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.data {
+    font-size: 20px;
+}
+
+.data_change {
+    color: red;
+
+}
+
+/* 5g */
+.codeCamp {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.email {
+    color: grey;
+    margin-right: 3px;
+}
+
+.hour {
+    color: grey;
+}
+
+.codeCamp_details {
+    font-size: 18px;
+    color: black;
+    line-height: 15px;
+}
+
+.codecamp_link {
+    color: rgb(0, 174, 255);
+}

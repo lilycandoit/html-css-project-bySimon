@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+  <title>button practise</title>
+</head>
+<body>
+  <STYLE>
+    .SUBSCRIBE-BUTTON {
+      background-color: red;
+      color: white;
+      font-size: 15px;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 5px;
+      transition: opacity 0.15s;
+    }
+
+    .SUBSCRIBE-BUTTON:hover{
+      opacity: 0.8;
+    }
+
+    .SUBSCRIBE-BUTTON:ACTIVE{
+      opacity: 0.5;
+    }
+
+    .join-button {
+      background-color: white;
+      border-color: blue;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 4px;
+      padding: 6px;
+      color: blue;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+      transition: background-color 0.15s, color 0.15s;
+      /* transition should always be put in the base css, NOT in the psuedo css */
+      /* and the transition time is advised at 0.15s */
+    }
+
+    .join-button:hover{
+      color: white;
+      background-color: blue;
+    }
+
+    .tweet-button{
+      background-color: rgb(51, 51, 215);
+      color: white;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 15px;
+      height: 36px;
+      width: 72px;
+      border: none;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: box-shadow 0.15s;
+      
+    }
+
+    .tweet-button:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /* exercise */
+    /* 2a */
+      .request_now-button{
+        background-color: black;
+        padding: 10px;
+        color: white;
+        display: block;
+        border: none;
+        margin: 5px;
+      }
+    /* 2b */
+      .add_to_cart-button{
+        color: black;
+        background-color: rgb(255, 216, 20);
+        width: 200px;
+        height: 30px;
+        border-radius: 25px;
+        display: block;
+        border: none;
+        font-weight: bold;
+        margin: 5px;
+      }
+
+      .sign_up-button{
+        background-color: rgb(101, 211, 101);
+        width: 70px;
+        height: 30px;
+        color: white;
+        border-radius: 4px;
+        display: block;
+        border: none;
+        margin: 5px;
+      }
+
+      .get_started{
+        background-color: purple;
+        padding: 10px 25px;
+        margin: 5px;
+        color: white;
+        border-radius: 4px;
+        border: none;
+      }
+
+      .download{
+        color: rgb(86, 84, 84);
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: rgb(80, 78, 78);
+      }
+
+      .apply_linkedIn{
+        display: inline-block;
+        background-color: rgb(10, 102, 194);
+        padding: 10px 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        margin: 5px;
+      }
+
+      .save_linkedIn{
+        background-color: white;
+        color: rgb(94, 94, 244);
+        border-color: rgb(96, 96, 245);
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 23px;
+        border-radius: 20px;
+        border-width: 1px;
+        display: inline-block;
+      }
+  </STYLE> 
+  <!-- tag name will ignore if written in caplock -->
+  
+  <button CLASS="SUBSCRIBE-BUTTON">SUBSCRIBE</button>
+  <BUTTON class="join-button">JOIN</BUTTON>
+  <BUTTON class="tweet-button">Tweet</BUTTON>
+
+  <!-- exercise -->
+  <!-- 2a -->
+  <button class="request_now-button">Request now</button>
+  <!-- 2b -->
+  <button class="add_to_cart-button"> Add to Cart</button>
+  <!-- 2c -->
+  <button class="sign_up-button">Sign up</button>
+  <!-- 2d -->
+  <button class="get_started">Get started</button>
+  <button class="download">Down load</button>
+  <!-- 2e -->
+  <button class="apply_linkedIn">Apply on company website</button>
+  <button class="save_linkedIn">Save</button>
+
+
+
+
+</body>
+
+
