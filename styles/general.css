@@ -1,14 +1,21 @@
 p {
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
 body {
-    margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
-    padding-right: 96px;
-    background-color: rgb(241, 240, 240);
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 96px;
+  background-color: rgb(241, 240, 240);
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 }
