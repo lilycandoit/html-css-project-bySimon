@@ -174,12 +174,3 @@
   }
 }
 
-@media (max-width: 600px) {
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 55px;
-    /* pending */
-  }
-}
